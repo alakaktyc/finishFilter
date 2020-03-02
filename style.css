@@ -1,0 +1,22 @@
+.filter__country{
+    display: flex;
+    align-items: center;
+}
+.col{
+    display: flex;
+    flex-direction: column;
+    max-width: 200px;
+}
+.box-cards{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+}
+.desk-card{
+    min-width: 490px;
+    margin: 20px 0 20px 0;
+    border: 1px solid black;
+    border-radius: 5px;
+    box-shadow: 10px 10px 5px 0 rgba(0,0,0,0.75);
+}

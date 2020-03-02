@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="style.css">
+    <title>Title</title>
+</head>
+<body>
+<div class="container">
+        <form class="filter">
+            <label class="filter__country">
+                <span class="col from">
+                    Откуда
+                    <select class="filter__country-from">
+                        <option>Все</option>
+                    </select>
+                    <select class="filter__region-from" disabled>
+                        <option>Все</option>
+                    </select>
+                    <select class="filter__city-from" disabled>
+                        <option>Все</option>
+                    </select>
+                </span>
+                <span class="col to">
+                    Куда
+                    <select class="filter__country-to">
+                        <option>Все</option>
+                    </select>
+                    <select class="filter__region-to" disabled>
+                        <option>Все</option>
+                    </select>
+                    <select class="filter__city-to" disabled>
+                        <option>Все</option>
+                    </select>
+                </span>
+                Тип транспорта
+                <select class="filter__type-transport">
+                    <option>Все</option>
+                </select>
+                Масса груза
+                <select class="filter__weight">
+                    <option>Все</option>
+                    <option>До 5т</option>
+                    <option>До 10т</option>
+                    <option>До 15т</option>
+                    <option>До 20т</option>
+                    <option>До 25т</option>
+                </select>
+                Дата загрузки:
+                от
+                <input class="filter__start-trip" type="date" name="start-from">
+                до
+                <input class="filter__start-trip" type="date" name="start-to">
+            </label>
+            <button class="filter-search__btn">Найти</button>
+            <button class="filter-clear__btn">Сбросить</button>
+        </form>
+    <div class="box-cards"></div>
+</div>
+
+
+
+<template id="sample">
+    <article class="desk-card desk-box__desk-card">
+        Номер объявления: <span class="desk-id"></span>
+        <h5 class="desk-card__title">Маршрут:
+            <span class="desk-title">
+                    <span class="desk-geo"></span>
+                  </span>
+        </h5>
+        <div class="desk-card__description">
+            <p><strong>Тип транспорта:</strong> <span class="desk-transport"></span></p>
+            <p><strong>Груз:</strong> <span class="desk-cargo"><!--<span class="desk-weight"></span>т
+                  - <span class="desk-volume"> вставить объём  </span>м3--></span></p>
+            <p><strong>Расстояние:</strong> <span class="desk-distance"> ~ </span></p>
+            <p><strong>Дата загрузки:</strong> <span class="desk-time"></span></p>
+            <p><strong>Дата доставки:</strong> <span class="desk-time"></span></p>
+        </div>
+        <div class="desk-card__fixed">
+            <hr>
+            <p>Добавлено: <span class="desk-date"></span></p>
+            <button class="update-btn desk-card__btn btn" type="button" name="button">Заявка</button>
+        </div>
+    </article>
+</template>
+<script src="main.js"></script>
+</body>
+</html>
