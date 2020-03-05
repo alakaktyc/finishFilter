@@ -161,7 +161,6 @@ selFrom.addEventListener('click', statusOptionFrom);
 
 
 function getContent() {
-
     let arrCountryFrom = [];
     let arrCountryTo = [];
 
@@ -355,6 +354,9 @@ function getSelectedOption(select) {
     return option;
 }
 
+
+
+
 const addObj = document.querySelector('.filter');
 addObj.addEventListener('click', function (event) {
 
@@ -369,6 +371,18 @@ addObj.addEventListener('click', function (event) {
     let selectTransport = document.querySelector('.filter__type-transport');
     let selectWeight = document.querySelector('.filter__weight');
     let weight = parseInt(getSelectedOption(selectWeight).textContent.replace(/[^\d]/g, ''));
+
+
+    //Добавил
+    let inputVolume = document.querySelector('.filter__volume');
+    inputVolume.addEventListener('input', function(){
+        this.value = this.value.replace(/[^\d]/g, '');
+    });
+    let volume = parseInt(document.querySelector('.filter__volume').value);
+
+
+
+
     const boxCards = document.querySelector('.box-cards');
     if (event.target.className === 'filter-search__btn'){
         event.preventDefault();
@@ -385,11 +399,13 @@ addObj.addEventListener('click', function (event) {
             UF_CRM_1577687543: getSelectedOption(selectTransport).textContent //тип транспорта
         };
         Object.entries(filterObj).forEach(n => n[1] === 'Все' && delete filterObj[n[0]]);
-        console.log(filterObj);
+        //console.log(filterObj);
         let newDesk = arrDesk;
         newDesk = arrDesk.filter(function(item) {
 
-            if (isNaN(weight)){
+
+            //Заменить
+            if (isNaN(weight) && isNaN(volume)){
                 if (new Date(item.UF_CRM_1573635128) >= new Date(selectDateFromStart) && new Date(item.UF_CRM_1573635128) <= new Date(selectDateFromEnd)){
                     for (let key in filterObj) {
                         if (item[key] === undefined || item[key] !== filterObj[key]) {
@@ -398,7 +414,25 @@ addObj.addEventListener('click', function (event) {
                     }
                     return true;
                 }
-            } else {
+            }
+
+            //Добавил
+            else if (isNaN(weight)){
+                if (new Date(item.UF_CRM_1573635128) >= new Date(selectDateFromStart)
+                    && new Date(item.UF_CRM_1573635128) <= new Date(selectDateFromEnd)
+                    && item.UF_CRM_1577436773286 <= volume){
+                    for (let key in filterObj) {
+                        if (item[key] === undefined || item[key] !== filterObj[key]) {
+                            return false;
+                        }
+                    }
+                    return true;
+                }
+            }
+
+
+            //Добавил
+            else if (isNaN(volume)){
                 if (new Date(item.UF_CRM_1573635128) >= new Date(selectDateFromStart)
                     && new Date(item.UF_CRM_1573635128) <= new Date(selectDateFromEnd)
                     && item.UF_CRM_1577436810522 <= weight){
@@ -410,6 +444,25 @@ addObj.addEventListener('click', function (event) {
                     return true;
                 }
             }
+
+
+            else {
+                if (new Date(item.UF_CRM_1573635128) >= new Date(selectDateFromStart)
+                    && new Date(item.UF_CRM_1573635128) <= new Date(selectDateFromEnd)
+                    && item.UF_CRM_1577436810522 <= weight
+                    && item.UF_CRM_1577436773286 <= volume){
+                    for (let key in filterObj) {
+                        if (item[key] === undefined || item[key] !== filterObj[key]) {
+                            return false;
+                        }
+                    }
+                    return true;
+                }
+            }
+
+
+
+
 
         });
 
@@ -427,13 +480,14 @@ addObj.addEventListener('click', function (event) {
             copyHTML.querySelector('.desk-date').textContent = n.DATE_CREATE;
             boxCards.appendChild(copyHTML);
         });
-        console.log(newDesk);
+        //console.log(newDesk);
     }
     if (event.target.className === 'filter-clear__btn'){
         event.preventDefault();
         findMinMaxDate();
         selectTransport.value = 'Все';
         selectWeight.value = 'Все';
+        inputVolume.value = ''; //Добавил
         const selectFrom = document.querySelector('.from').children;
         const selectTo = document.querySelector('.to').children;
         boxCards.innerHTML = '';
