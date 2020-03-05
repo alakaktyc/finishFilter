@@ -1,3 +1,4 @@
+
 const arrDesk = [
     {
         ID: 46130,
@@ -19,8 +20,469 @@ const arrDesk = [
         UF_CRM_1577443693908: '~',
         UF_CRM_1573635128: '2020-02-16',
         UF_CRM_1580833330: '2020-03-10',
-        DATE_CREATE: '2020-02-02',
-        UF_CRM_1582966708: false
+        DATE_CREATE: '2020-02-02'
+    },
+    {
+        ID: 46130,
+        UF_CRM_1582909609: 'BY',
+        UF_CRM_1582909937: 'Беларусь',
+        UF_CRM_1582909249:'Минская обл.',
+        UF_CRM_1582909468:'Борисовский р-н',
+        UF_CRM_1577438281365: 'Борисов',
+        UF_CRM_1582909639: 'CZ',
+        UF_CRM_1582909954: 'Чехия',
+        UF_CRM_1582909273:'48 кв',
+        UF_CRM_1582909491:'48 кв',
+        UF_CRM_1577438296576: 'Мельник',
+        UF_CRM_1577687543: 'Тент',
+        UF_CRM_1577687860: 'Боковая загрузка',
+        UF_CRM_1573641711: 'пиломатериал',
+        UF_CRM_1577436773286: 82,
+        UF_CRM_1577436810522: 23,
+        UF_CRM_1577443693908: '~',
+        UF_CRM_1573635128: '2020-02-16',
+        UF_CRM_1580833330: '2020-03-10',
+        DATE_CREATE: '2020-02-02'
+    },
+    {
+        ID: 46130,
+        UF_CRM_1582909609: 'BY',
+        UF_CRM_1582909937: 'Беларусь',
+        UF_CRM_1582909249:'Минская обл.',
+        UF_CRM_1582909468:'Борисовский р-н',
+        UF_CRM_1577438281365: 'Борисов',
+        UF_CRM_1582909639: 'CZ',
+        UF_CRM_1582909954: 'Чехия',
+        UF_CRM_1582909273:'48 кв',
+        UF_CRM_1582909491:'48 кв',
+        UF_CRM_1577438296576: 'Мельник',
+        UF_CRM_1577687543: 'Тент',
+        UF_CRM_1577687860: 'Боковая загрузка',
+        UF_CRM_1573641711: 'пиломатериал',
+        UF_CRM_1577436773286: 82,
+        UF_CRM_1577436810522: 23,
+        UF_CRM_1577443693908: '~',
+        UF_CRM_1573635128: '2020-02-16',
+        UF_CRM_1580833330: '2020-03-10',
+        DATE_CREATE: '2020-02-02'
+    },
+    {
+        ID: 46130,
+        UF_CRM_1582909609: 'BY',
+        UF_CRM_1582909937: 'Беларусь',
+        UF_CRM_1582909249:'Минская обл.',
+        UF_CRM_1582909468:'Борисовский р-н',
+        UF_CRM_1577438281365: 'Борисов',
+        UF_CRM_1582909639: 'CZ',
+        UF_CRM_1582909954: 'Чехия',
+        UF_CRM_1582909273:'48 кв',
+        UF_CRM_1582909491:'48 кв',
+        UF_CRM_1577438296576: 'Мельник',
+        UF_CRM_1577687543: 'Тент',
+        UF_CRM_1577687860: 'Боковая загрузка',
+        UF_CRM_1573641711: 'пиломатериал',
+        UF_CRM_1577436773286: 82,
+        UF_CRM_1577436810522: 23,
+        UF_CRM_1577443693908: '~',
+        UF_CRM_1573635128: '2020-02-16',
+        UF_CRM_1580833330: '2020-03-10',
+        DATE_CREATE: '2020-02-02'
+    },
+    {
+        ID: 46130,
+        UF_CRM_1582909609: 'BY',
+        UF_CRM_1582909937: 'Беларусь',
+        UF_CRM_1582909249:'Минская обл.',
+        UF_CRM_1582909468:'Борисовский р-н',
+        UF_CRM_1577438281365: 'Борисов',
+        UF_CRM_1582909639: 'CZ',
+        UF_CRM_1582909954: 'Чехия',
+        UF_CRM_1582909273:'48 кв',
+        UF_CRM_1582909491:'48 кв',
+        UF_CRM_1577438296576: 'Мельник',
+        UF_CRM_1577687543: 'Тент',
+        UF_CRM_1577687860: 'Боковая загрузка',
+        UF_CRM_1573641711: 'пиломатериал',
+        UF_CRM_1577436773286: 82,
+        UF_CRM_1577436810522: 23,
+        UF_CRM_1577443693908: '~',
+        UF_CRM_1573635128: '2020-02-16',
+        UF_CRM_1580833330: '2020-03-10',
+        DATE_CREATE: '2020-02-02'
+    },
+    {
+        ID: 46130,
+        UF_CRM_1582909609: 'BY',
+        UF_CRM_1582909937: 'Беларусь',
+        UF_CRM_1582909249:'Минская обл.',
+        UF_CRM_1582909468:'Борисовский р-н',
+        UF_CRM_1577438281365: 'Борисов',
+        UF_CRM_1582909639: 'CZ',
+        UF_CRM_1582909954: 'Чехия',
+        UF_CRM_1582909273:'48 кв',
+        UF_CRM_1582909491:'48 кв',
+        UF_CRM_1577438296576: 'Мельник',
+        UF_CRM_1577687543: 'Тент',
+        UF_CRM_1577687860: 'Боковая загрузка',
+        UF_CRM_1573641711: 'пиломатериал',
+        UF_CRM_1577436773286: 82,
+        UF_CRM_1577436810522: 23,
+        UF_CRM_1577443693908: '~',
+        UF_CRM_1573635128: '2020-02-16',
+        UF_CRM_1580833330: '2020-03-10',
+        DATE_CREATE: '2020-02-02'
+    },
+    {
+        ID: 46130,
+        UF_CRM_1582909609: 'BY',
+        UF_CRM_1582909937: 'Беларусь',
+        UF_CRM_1582909249:'Минская обл.',
+        UF_CRM_1582909468:'Борисовский р-н',
+        UF_CRM_1577438281365: 'Борисов',
+        UF_CRM_1582909639: 'CZ',
+        UF_CRM_1582909954: 'Чехия',
+        UF_CRM_1582909273:'48 кв',
+        UF_CRM_1582909491:'48 кв',
+        UF_CRM_1577438296576: 'Мельник',
+        UF_CRM_1577687543: 'Тент',
+        UF_CRM_1577687860: 'Боковая загрузка',
+        UF_CRM_1573641711: 'пиломатериал',
+        UF_CRM_1577436773286: 82,
+        UF_CRM_1577436810522: 23,
+        UF_CRM_1577443693908: '~',
+        UF_CRM_1573635128: '2020-02-16',
+        UF_CRM_1580833330: '2020-03-10',
+        DATE_CREATE: '2020-02-02'
+    },
+    {
+        ID: 46130,
+        UF_CRM_1582909609: 'BY',
+        UF_CRM_1582909937: 'Беларусь',
+        UF_CRM_1582909249:'Минская обл.',
+        UF_CRM_1582909468:'Борисовский р-н',
+        UF_CRM_1577438281365: 'Борисов',
+        UF_CRM_1582909639: 'CZ',
+        UF_CRM_1582909954: 'Чехия',
+        UF_CRM_1582909273:'48 кв',
+        UF_CRM_1582909491:'48 кв',
+        UF_CRM_1577438296576: 'Мельник',
+        UF_CRM_1577687543: 'Тент',
+        UF_CRM_1577687860: 'Боковая загрузка',
+        UF_CRM_1573641711: 'пиломатериал',
+        UF_CRM_1577436773286: 82,
+        UF_CRM_1577436810522: 23,
+        UF_CRM_1577443693908: '~',
+        UF_CRM_1573635128: '2020-02-16',
+        UF_CRM_1580833330: '2020-03-10',
+        DATE_CREATE: '2020-02-02'
+    },
+    {
+        ID: 46130,
+        UF_CRM_1582909609: 'BY',
+        UF_CRM_1582909937: 'Беларусь',
+        UF_CRM_1582909249:'Минская обл.',
+        UF_CRM_1582909468:'Борисовский р-н',
+        UF_CRM_1577438281365: 'Борисов',
+        UF_CRM_1582909639: 'CZ',
+        UF_CRM_1582909954: 'Чехия',
+        UF_CRM_1582909273:'48 кв',
+        UF_CRM_1582909491:'48 кв',
+        UF_CRM_1577438296576: 'Мельник',
+        UF_CRM_1577687543: 'Тент',
+        UF_CRM_1577687860: 'Боковая загрузка',
+        UF_CRM_1573641711: 'пиломатериал',
+        UF_CRM_1577436773286: 82,
+        UF_CRM_1577436810522: 23,
+        UF_CRM_1577443693908: '~',
+        UF_CRM_1573635128: '2020-02-16',
+        UF_CRM_1580833330: '2020-03-10',
+        DATE_CREATE: '2020-02-02'
+    },
+    {
+        ID: 46130,
+        UF_CRM_1582909609: 'BY',
+        UF_CRM_1582909937: 'Беларусь',
+        UF_CRM_1582909249:'Минская обл.',
+        UF_CRM_1582909468:'Борисовский р-н',
+        UF_CRM_1577438281365: 'Борисов',
+        UF_CRM_1582909639: 'CZ',
+        UF_CRM_1582909954: 'Чехия',
+        UF_CRM_1582909273:'48 кв',
+        UF_CRM_1582909491:'48 кв',
+        UF_CRM_1577438296576: 'Мельник',
+        UF_CRM_1577687543: 'Тент',
+        UF_CRM_1577687860: 'Боковая загрузка',
+        UF_CRM_1573641711: 'пиломатериал',
+        UF_CRM_1577436773286: 82,
+        UF_CRM_1577436810522: 23,
+        UF_CRM_1577443693908: '~',
+        UF_CRM_1573635128: '2020-02-16',
+        UF_CRM_1580833330: '2020-03-10',
+        DATE_CREATE: '2020-02-02'
+    },
+    {
+        ID: 46130,
+        UF_CRM_1582909609: 'BY',
+        UF_CRM_1582909937: 'Беларусь',
+        UF_CRM_1582909249:'Минская обл.',
+        UF_CRM_1582909468:'Борисовский р-н',
+        UF_CRM_1577438281365: 'Борисов',
+        UF_CRM_1582909639: 'CZ',
+        UF_CRM_1582909954: 'Чехия',
+        UF_CRM_1582909273:'48 кв',
+        UF_CRM_1582909491:'48 кв',
+        UF_CRM_1577438296576: 'Мельник',
+        UF_CRM_1577687543: 'Тент',
+        UF_CRM_1577687860: 'Боковая загрузка',
+        UF_CRM_1573641711: 'пиломатериал',
+        UF_CRM_1577436773286: 82,
+        UF_CRM_1577436810522: 23,
+        UF_CRM_1577443693908: '~',
+        UF_CRM_1573635128: '2020-02-16',
+        UF_CRM_1580833330: '2020-03-10',
+        DATE_CREATE: '2020-02-02'
+    },
+    {
+        ID: 46130,
+        UF_CRM_1582909609: 'BY',
+        UF_CRM_1582909937: 'Беларусь',
+        UF_CRM_1582909249:'Минская обл.',
+        UF_CRM_1582909468:'Борисовский р-н',
+        UF_CRM_1577438281365: 'Борисов',
+        UF_CRM_1582909639: 'CZ',
+        UF_CRM_1582909954: 'Чехия',
+        UF_CRM_1582909273:'48 кв',
+        UF_CRM_1582909491:'48 кв',
+        UF_CRM_1577438296576: 'Мельник',
+        UF_CRM_1577687543: 'Тент',
+        UF_CRM_1577687860: 'Боковая загрузка',
+        UF_CRM_1573641711: 'пиломатериал',
+        UF_CRM_1577436773286: 82,
+        UF_CRM_1577436810522: 23,
+        UF_CRM_1577443693908: '~',
+        UF_CRM_1573635128: '2020-02-16',
+        UF_CRM_1580833330: '2020-03-10',
+        DATE_CREATE: '2020-02-02'
+    },
+    {
+        ID: 46130,
+        UF_CRM_1582909609: 'BY',
+        UF_CRM_1582909937: 'Беларусь',
+        UF_CRM_1582909249:'Минская обл.',
+        UF_CRM_1582909468:'Борисовский р-н',
+        UF_CRM_1577438281365: 'Борисов',
+        UF_CRM_1582909639: 'CZ',
+        UF_CRM_1582909954: 'Чехия',
+        UF_CRM_1582909273:'48 кв',
+        UF_CRM_1582909491:'48 кв',
+        UF_CRM_1577438296576: 'Мельник',
+        UF_CRM_1577687543: 'Тент',
+        UF_CRM_1577687860: 'Боковая загрузка',
+        UF_CRM_1573641711: 'пиломатериал',
+        UF_CRM_1577436773286: 82,
+        UF_CRM_1577436810522: 23,
+        UF_CRM_1577443693908: '~',
+        UF_CRM_1573635128: '2020-02-16',
+        UF_CRM_1580833330: '2020-03-10',
+        DATE_CREATE: '2020-02-02'
+    },
+    {
+        ID: 46130,
+        UF_CRM_1582909609: 'BY',
+        UF_CRM_1582909937: 'Беларусь',
+        UF_CRM_1582909249:'Минская обл.',
+        UF_CRM_1582909468:'Борисовский р-н',
+        UF_CRM_1577438281365: 'Борисов',
+        UF_CRM_1582909639: 'CZ',
+        UF_CRM_1582909954: 'Чехия',
+        UF_CRM_1582909273:'48 кв',
+        UF_CRM_1582909491:'48 кв',
+        UF_CRM_1577438296576: 'Мельник',
+        UF_CRM_1577687543: 'Тент',
+        UF_CRM_1577687860: 'Боковая загрузка',
+        UF_CRM_1573641711: 'пиломатериал',
+        UF_CRM_1577436773286: 82,
+        UF_CRM_1577436810522: 23,
+        UF_CRM_1577443693908: '~',
+        UF_CRM_1573635128: '2020-02-16',
+        UF_CRM_1580833330: '2020-03-10',
+        DATE_CREATE: '2020-02-02'
+    },
+    {
+        ID: 46130,
+        UF_CRM_1582909609: 'BY',
+        UF_CRM_1582909937: 'Беларусь',
+        UF_CRM_1582909249:'Минская обл.',
+        UF_CRM_1582909468:'Борисовский р-н',
+        UF_CRM_1577438281365: 'Борисов',
+        UF_CRM_1582909639: 'CZ',
+        UF_CRM_1582909954: 'Чехия',
+        UF_CRM_1582909273:'48 кв',
+        UF_CRM_1582909491:'48 кв',
+        UF_CRM_1577438296576: 'Мельник',
+        UF_CRM_1577687543: 'Тент',
+        UF_CRM_1577687860: 'Боковая загрузка',
+        UF_CRM_1573641711: 'пиломатериал',
+        UF_CRM_1577436773286: 82,
+        UF_CRM_1577436810522: 23,
+        UF_CRM_1577443693908: '~',
+        UF_CRM_1573635128: '2020-02-16',
+        UF_CRM_1580833330: '2020-03-10',
+        DATE_CREATE: '2020-02-02'
+    },
+    {
+        ID: 46130,
+        UF_CRM_1582909609: 'BY',
+        UF_CRM_1582909937: 'Беларусь',
+        UF_CRM_1582909249:'Минская обл.',
+        UF_CRM_1582909468:'Борисовский р-н',
+        UF_CRM_1577438281365: 'Борисов',
+        UF_CRM_1582909639: 'CZ',
+        UF_CRM_1582909954: 'Чехия',
+        UF_CRM_1582909273:'48 кв',
+        UF_CRM_1582909491:'48 кв',
+        UF_CRM_1577438296576: 'Мельник',
+        UF_CRM_1577687543: 'Тент',
+        UF_CRM_1577687860: 'Боковая загрузка',
+        UF_CRM_1573641711: 'пиломатериал',
+        UF_CRM_1577436773286: 82,
+        UF_CRM_1577436810522: 23,
+        UF_CRM_1577443693908: '~',
+        UF_CRM_1573635128: '2020-02-16',
+        UF_CRM_1580833330: '2020-03-10',
+        DATE_CREATE: '2020-02-02'
+    },
+    {
+        ID: 46130,
+        UF_CRM_1582909609: 'BY',
+        UF_CRM_1582909937: 'Беларусь',
+        UF_CRM_1582909249:'Минская обл.',
+        UF_CRM_1582909468:'Борисовский р-н',
+        UF_CRM_1577438281365: 'Борисов',
+        UF_CRM_1582909639: 'CZ',
+        UF_CRM_1582909954: 'Чехия',
+        UF_CRM_1582909273:'48 кв',
+        UF_CRM_1582909491:'48 кв',
+        UF_CRM_1577438296576: 'Мельник',
+        UF_CRM_1577687543: 'Тент',
+        UF_CRM_1577687860: 'Боковая загрузка',
+        UF_CRM_1573641711: 'пиломатериал',
+        UF_CRM_1577436773286: 82,
+        UF_CRM_1577436810522: 23,
+        UF_CRM_1577443693908: '~',
+        UF_CRM_1573635128: '2020-02-16',
+        UF_CRM_1580833330: '2020-03-10',
+        DATE_CREATE: '2020-02-02'
+    },
+    {
+        ID: 46130,
+        UF_CRM_1582909609: 'BY',
+        UF_CRM_1582909937: 'Беларусь',
+        UF_CRM_1582909249:'Минская обл.',
+        UF_CRM_1582909468:'Борисовский р-н',
+        UF_CRM_1577438281365: 'Борисов',
+        UF_CRM_1582909639: 'CZ',
+        UF_CRM_1582909954: 'Чехия',
+        UF_CRM_1582909273:'48 кв',
+        UF_CRM_1582909491:'48 кв',
+        UF_CRM_1577438296576: 'Мельник',
+        UF_CRM_1577687543: 'Тент',
+        UF_CRM_1577687860: 'Боковая загрузка',
+        UF_CRM_1573641711: 'пиломатериал',
+        UF_CRM_1577436773286: 82,
+        UF_CRM_1577436810522: 23,
+        UF_CRM_1577443693908: '~',
+        UF_CRM_1573635128: '2020-02-16',
+        UF_CRM_1580833330: '2020-03-10',
+        DATE_CREATE: '2020-02-02'
+    },
+    {
+        ID: 46130,
+        UF_CRM_1582909609: 'BY',
+        UF_CRM_1582909937: 'Беларусь',
+        UF_CRM_1582909249:'Минская обл.',
+        UF_CRM_1582909468:'Борисовский р-н',
+        UF_CRM_1577438281365: 'Борисов',
+        UF_CRM_1582909639: 'CZ',
+        UF_CRM_1582909954: 'Чехия',
+        UF_CRM_1582909273:'48 кв',
+        UF_CRM_1582909491:'48 кв',
+        UF_CRM_1577438296576: 'Мельник',
+        UF_CRM_1577687543: 'Тент',
+        UF_CRM_1577687860: 'Боковая загрузка',
+        UF_CRM_1573641711: 'пиломатериал',
+        UF_CRM_1577436773286: 82,
+        UF_CRM_1577436810522: 23,
+        UF_CRM_1577443693908: '~',
+        UF_CRM_1573635128: '2020-02-16',
+        UF_CRM_1580833330: '2020-03-10',
+        DATE_CREATE: '2020-02-02'
+    },
+    {
+        ID: 46130,
+        UF_CRM_1582909609: 'BY',
+        UF_CRM_1582909937: 'Беларусь',
+        UF_CRM_1582909249:'Минская обл.',
+        UF_CRM_1582909468:'Борисовский р-н',
+        UF_CRM_1577438281365: 'Борисов',
+        UF_CRM_1582909639: 'CZ',
+        UF_CRM_1582909954: 'Чехия',
+        UF_CRM_1582909273:'48 кв',
+        UF_CRM_1582909491:'48 кв',
+        UF_CRM_1577438296576: 'Мельник',
+        UF_CRM_1577687543: 'Тент',
+        UF_CRM_1577687860: 'Боковая загрузка',
+        UF_CRM_1573641711: 'пиломатериал',
+        UF_CRM_1577436773286: 82,
+        UF_CRM_1577436810522: 23,
+        UF_CRM_1577443693908: '~',
+        UF_CRM_1573635128: '2020-02-16',
+        UF_CRM_1580833330: '2020-03-10',
+        DATE_CREATE: '2020-02-02'
+    },
+    {
+        ID: 46130,
+        UF_CRM_1582909609: 'BY',
+        UF_CRM_1582909937: 'Беларусь',
+        UF_CRM_1582909249:'Минская обл.',
+        UF_CRM_1582909468:'Борисовский р-н',
+        UF_CRM_1577438281365: 'Борисов',
+        UF_CRM_1582909639: 'CZ',
+        UF_CRM_1582909954: 'Чехия',
+        UF_CRM_1582909273:'48 кв',
+        UF_CRM_1582909491:'48 кв',
+        UF_CRM_1577438296576: 'Мельник',
+        UF_CRM_1577687543: 'Тент',
+        UF_CRM_1577687860: 'Боковая загрузка',
+        UF_CRM_1573641711: 'пиломатериал',
+        UF_CRM_1577436773286: 82,
+        UF_CRM_1577436810522: 23,
+        UF_CRM_1577443693908: '~',
+        UF_CRM_1573635128: '2020-02-16',
+        UF_CRM_1580833330: '2020-03-10',
+        DATE_CREATE: '2020-02-02'
+    },
+    {
+        ID: 46130,
+        UF_CRM_1582909609: 'BY',
+        UF_CRM_1582909937: 'Беларусь',
+        UF_CRM_1582909249:'Минская обл.',
+        UF_CRM_1582909468:'Борисовский р-н',
+        UF_CRM_1577438281365: 'Борисов',
+        UF_CRM_1582909639: 'CZ',
+        UF_CRM_1582909954: 'Чехия',
+        UF_CRM_1582909273:'48 кв',
+        UF_CRM_1582909491:'48 кв',
+        UF_CRM_1577438296576: 'Мельник',
+        UF_CRM_1577687543: 'Тент',
+        UF_CRM_1577687860: 'Боковая загрузка',
+        UF_CRM_1573641711: 'пиломатериал',
+        UF_CRM_1577436773286: 82,
+        UF_CRM_1577436810522: 23,
+        UF_CRM_1577443693908: '~',
+        UF_CRM_1573635128: '2020-02-16',
+        UF_CRM_1580833330: '2020-03-10',
+        DATE_CREATE: '2020-02-02'
     },
     {
         ID: 46131,
@@ -42,8 +504,7 @@ const arrDesk = [
         UF_CRM_1577443693908: '~',
         UF_CRM_1573635128: '2020-02-16',
         UF_CRM_1580833330: '2020-03-10',
-        DATE_CREATE: '2020-02-01',
-        UF_CRM_1582966708: false
+        DATE_CREATE: '2020-02-01'
     },
     {
         ID: 46132,
@@ -65,8 +526,29 @@ const arrDesk = [
         UF_CRM_1577443693908: '~',
         UF_CRM_1573635128: '2020-02-16',
         UF_CRM_1580833330: '2020-03-10',
-        DATE_CREATE: '2020-02-03',
-        UF_CRM_1582966708: false
+        DATE_CREATE: '2020-02-03'
+    },
+    {
+        ID: 46132,
+        UF_CRM_1582909609: 'PL',
+        UF_CRM_1582909937:'Польша',
+        UF_CRM_1582909249:'48 кв',
+        UF_CRM_1582909468:'48 кв',
+        UF_CRM_1577438281365: 'Гданьск',
+        UF_CRM_1582909639: 'BY',
+        UF_CRM_1582909954: 'Беларусь',
+        UF_CRM_1582909273:'Могилёвская обл.',
+        UF_CRM_1582909491:'Могилёвский р-н',
+        UF_CRM_1577438296576: 'Могилёв',
+        UF_CRM_1577687543: 'Тент',
+        UF_CRM_1577687860: 'Боковая загрузка',
+        UF_CRM_1573641711: 'пиломатериал',
+        UF_CRM_1577436773286: 82,
+        UF_CRM_1577436810522: 23,
+        UF_CRM_1577443693908: '~',
+        UF_CRM_1573635128: '2020-02-16',
+        UF_CRM_1580833330: '2020-03-10',
+        DATE_CREATE: '2020-02-03'
     },
     {
         ID: 46133,
@@ -88,8 +570,7 @@ const arrDesk = [
         UF_CRM_1577443693908: '~',
         UF_CRM_1573635128: '2020-02-20',
         UF_CRM_1580833330: '2020-03-10',
-        DATE_CREATE: '2020-02-03',
-        UF_CRM_1582966708: false
+        DATE_CREATE: '2020-02-03'
     },
     {
         ID: 46134,
@@ -111,8 +592,7 @@ const arrDesk = [
         UF_CRM_1577443693908: '~',
         UF_CRM_1573635128: '2020-02-18',
         UF_CRM_1580833330: '2020-03-10',
-        DATE_CREATE: '2020-02-05',
-        UF_CRM_1582966708: false
+        DATE_CREATE: '2020-02-05'
     }
 ];
 
@@ -357,6 +837,31 @@ function getSelectedOption(select) {
 
 
 
+
+const boxCards = document.querySelector('.box-cards');
+let newDesk = arrDesk;
+
+function appCards(n) {
+    const template = document.querySelector('#sample').content;
+    let copyHTML = document.importNode(template, true);
+    copyHTML.querySelector('.desk-id').textContent = n.ID;
+    copyHTML.querySelector('.desk-geo').textContent = `${n.UF_CRM_1582909937}, ${n.UF_CRM_1582909249}, ${n.UF_CRM_1577438281365} - ${n.UF_CRM_1582909954},  ${n.UF_CRM_1582909273}, ${n.UF_CRM_1577438296576}`;
+    copyHTML.querySelector('.desk-transport').textContent = n.UF_CRM_1577687543;
+    copyHTML.querySelector('.desk-cargo').textContent = `${n.UF_CRM_1573641711} ${n.UF_CRM_1577436810522}т ${n.UF_CRM_1577436773286}м3`;
+    copyHTML.querySelector('.desk-distance').textContent = n.UF_CRM_1577443693908;
+    copyHTML.querySelectorAll('.desk-time')[0].textContent = n.UF_CRM_1573635128;
+    copyHTML.querySelectorAll('.desk-time')[1].textContent = n.UF_CRM_1580833330;
+    copyHTML.querySelector('.desk-date').textContent = n.DATE_CREATE;
+    boxCards.appendChild(copyHTML);
+}
+
+function filter() {
+    boxCards.innerHTML = '';
+    newDesk.forEach(appCards);
+
+}
+
+
 const addObj = document.querySelector('.filter');
 addObj.addEventListener('click', function (event) {
 
@@ -372,8 +877,6 @@ addObj.addEventListener('click', function (event) {
     let selectWeight = document.querySelector('.filter__weight');
     let weight = parseInt(getSelectedOption(selectWeight).textContent.replace(/[^\d]/g, ''));
 
-
-    //Добавил
     let inputVolume = document.querySelector('.filter__volume');
     inputVolume.addEventListener('input', function(){
         this.value = this.value.replace(/[^\d]/g, '');
@@ -381,14 +884,8 @@ addObj.addEventListener('click', function (event) {
     let volume = parseInt(document.querySelector('.filter__volume').value);
 
 
-
-
-    const boxCards = document.querySelector('.box-cards');
-    if (event.target.className === 'filter-search__btn'){
+    if (event.target.classList.contains('filter-search__btn')){
         event.preventDefault();
-
-
-
         let filterObj = {
             UF_CRM_1582909937: getSelectedOption(selectCountryFrom).textContent.split(' ').reverse().pop(), //страна откуда
             UF_CRM_1582909249: getSelectedOption(selectRegionFrom).textContent,
@@ -399,12 +896,8 @@ addObj.addEventListener('click', function (event) {
             UF_CRM_1577687543: getSelectedOption(selectTransport).textContent //тип транспорта
         };
         Object.entries(filterObj).forEach(n => n[1] === 'Все' && delete filterObj[n[0]]);
-        //console.log(filterObj);
-        let newDesk = arrDesk;
+
         newDesk = arrDesk.filter(function(item) {
-
-
-            //Заменить
             if (isNaN(weight) && isNaN(volume)){
                 if (new Date(item.UF_CRM_1573635128) >= new Date(selectDateFromStart) && new Date(item.UF_CRM_1573635128) <= new Date(selectDateFromEnd)){
                     for (let key in filterObj) {
@@ -414,10 +907,7 @@ addObj.addEventListener('click', function (event) {
                     }
                     return true;
                 }
-            }
-
-            //Добавил
-            else if (isNaN(weight)){
+            } else if (isNaN(weight)){
                 if (new Date(item.UF_CRM_1573635128) >= new Date(selectDateFromStart)
                     && new Date(item.UF_CRM_1573635128) <= new Date(selectDateFromEnd)
                     && item.UF_CRM_1577436773286 <= volume){
@@ -428,11 +918,7 @@ addObj.addEventListener('click', function (event) {
                     }
                     return true;
                 }
-            }
-
-
-            //Добавил
-            else if (isNaN(volume)){
+            } else if (isNaN(volume)){
                 if (new Date(item.UF_CRM_1573635128) >= new Date(selectDateFromStart)
                     && new Date(item.UF_CRM_1573635128) <= new Date(selectDateFromEnd)
                     && item.UF_CRM_1577436810522 <= weight){
@@ -443,10 +929,7 @@ addObj.addEventListener('click', function (event) {
                     }
                     return true;
                 }
-            }
-
-
-            else {
+            } else {
                 if (new Date(item.UF_CRM_1573635128) >= new Date(selectDateFromStart)
                     && new Date(item.UF_CRM_1573635128) <= new Date(selectDateFromEnd)
                     && item.UF_CRM_1577436810522 <= weight
@@ -459,30 +942,17 @@ addObj.addEventListener('click', function (event) {
                     return true;
                 }
             }
-
-
-
-
-
         });
+
 
         boxCards.innerHTML = '';
-        newDesk.forEach(function (n) {
-            const template = document.querySelector('#sample').content;
-            let copyHTML = document.importNode(template, true);
-            copyHTML.querySelector('.desk-id').textContent = n.ID;
-            copyHTML.querySelector('.desk-geo').textContent = `${n.UF_CRM_1582909937}, ${n.UF_CRM_1582909249}, ${n.UF_CRM_1577438281365} - ${n.UF_CRM_1582909954},  ${n.UF_CRM_1582909273}, ${n.UF_CRM_1577438296576}`;
-            copyHTML.querySelector('.desk-transport').textContent = n.UF_CRM_1577687543;
-            copyHTML.querySelector('.desk-cargo').textContent = `${n.UF_CRM_1573641711} ${n.UF_CRM_1577436810522}т ${n.UF_CRM_1577436773286}м3`;
-            copyHTML.querySelector('.desk-distance').textContent = n.UF_CRM_1577443693908;
-            copyHTML.querySelectorAll('.desk-time')[0].textContent = n.UF_CRM_1573635128;
-            copyHTML.querySelectorAll('.desk-time')[1].textContent = n.UF_CRM_1580833330;
-            copyHTML.querySelector('.desk-date').textContent = n.DATE_CREATE;
-            boxCards.appendChild(copyHTML);
-        });
-        //console.log(newDesk);
+        controls.innerHTML = '';
+
+        calculateButtons(newDesk);
+        filter();
+
     }
-    if (event.target.className === 'filter-clear__btn'){
+    if (event.target.classList.contains('filter-clear__btn')){
         event.preventDefault();
         findMinMaxDate();
         selectTransport.value = 'Все';
@@ -501,3 +971,40 @@ addObj.addEventListener('click', function (event) {
         }
     }
 });
+
+const controls = document.querySelector('.controls');
+function calculateButtons (arrayDesk) {
+    if (arrayDesk.length > 24) {
+        boxCards.innerHTML='';
+        controls.innerHTML = '';
+        let numbersBtn = Math.ceil(arrayDesk.length / 24);
+        let subDesk = [];
+        for (let i = 1; i <= numbersBtn; ++i) {
+            let buttons = document.createElement('button');
+            buttons.className = 'box-cards__btn';
+            buttons.innerHTML = `${i}`;
+            controls.appendChild(buttons);
+        }
+
+        for (let j = 0; j < numbersBtn; j++) {
+            subDesk[j] = arrayDesk.slice((j * 24), (j * 24) + 24);
+        }
+
+        console.log(subDesk);
+        subDesk[0].forEach(appCards);
+
+        const deskBtn = document.querySelectorAll('.box-cards__btn');
+        for (let i = 0; i < deskBtn.length; ++i) {
+            deskBtn[i].addEventListener('click',function () {
+                boxCards.innerHTML = '';
+                subDesk[i].forEach(appCards);
+            })
+        }
+
+
+
+    }
+}
+calculateButtons(arrDesk);
+
+
