@@ -855,10 +855,10 @@ function appCards(n) {
     boxCards.appendChild(copyHTML);
 }
 
-function filter() {
+function filter(array) {
     boxCards.innerHTML = '';
-    newDesk.forEach(appCards);
-
+    /*newDesk.forEach(appCards);*/
+    array.forEach(appCards);
 }
 
 
@@ -949,18 +949,22 @@ addObj.addEventListener('click', function (event) {
         controls.innerHTML = '';
 
         calculateButtons(newDesk);
-        filter();
+        filter(newDesk);
 
     }
     if (event.target.classList.contains('filter-clear__btn')){
         event.preventDefault();
         findMinMaxDate();
+        boxCards.innerHTML = '';
+        calculateButtons(arrDesk);
+        filter(arrDesk);
+
         selectTransport.value = 'Все';
         selectWeight.value = 'Все';
         inputVolume.value = ''; //Добавил
         const selectFrom = document.querySelector('.from').children;
         const selectTo = document.querySelector('.to').children;
-        boxCards.innerHTML = '';
+
         for (let i = 1; i < selectFrom.length; i++){
             selectFrom[0].value = 'Все';
             selectFrom[i].value = 'Все';
