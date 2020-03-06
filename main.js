@@ -17,7 +17,7 @@ const arrDesk = [
         UF_CRM_1577436773286: 82,
         UF_CRM_1577436810522: 23,
         UF_CRM_1577443693908: '~',
-        UF_CRM_1573635128: '2020-02-16',
+        UF_CRM_1573635128: '2020-02-17',
         UF_CRM_1580833330: '2020-03-10',
         DATE_CREATE: '2020-02-02'
     },
@@ -61,7 +61,29 @@ const arrDesk = [
         UF_CRM_1577436773286: 82,
         UF_CRM_1577436810522: 23,
         UF_CRM_1577443693908: '~',
-        UF_CRM_1573635128: '2020-02-16',
+        UF_CRM_1573635128: '2020-02-18',
+        UF_CRM_1580833330: '2020-03-10',
+        DATE_CREATE: '2020-02-02'
+    },
+    {
+        ID: 46130,
+        UF_CRM_1582909609: 'BY',
+        UF_CRM_1582909937: 'Беларусь',
+        UF_CRM_1582909249:'Минская обл.',
+        UF_CRM_1582909468:'Борисовский р-н',
+        UF_CRM_1577438281365: 'Борисов',
+        UF_CRM_1582909639: 'CZ',
+        UF_CRM_1582909954: 'Чехия',
+        UF_CRM_1582909273:'48 кв',
+        UF_CRM_1582909491:'48 кв',
+        UF_CRM_1577438296576: 'Мельник',
+        UF_CRM_1577687543: 'Тент',
+        UF_CRM_1577687860: 'Боковая загрузка',
+        UF_CRM_1573641711: 'пиломатериал',
+        UF_CRM_1577436773286: 82,
+        UF_CRM_1577436810522: 23,
+        UF_CRM_1577443693908: '~',
+        UF_CRM_1573635128: '2020-02-19',
         UF_CRM_1580833330: '2020-03-10',
         DATE_CREATE: '2020-02-02'
     },
@@ -105,7 +127,7 @@ const arrDesk = [
         UF_CRM_1577436773286: 82,
         UF_CRM_1577436810522: 23,
         UF_CRM_1577443693908: '~',
-        UF_CRM_1573635128: '2020-02-16',
+        UF_CRM_1573635128: '2020-02-18',
         UF_CRM_1580833330: '2020-03-10',
         DATE_CREATE: '2020-02-02'
     },
@@ -127,29 +149,7 @@ const arrDesk = [
         UF_CRM_1577436773286: 82,
         UF_CRM_1577436810522: 23,
         UF_CRM_1577443693908: '~',
-        UF_CRM_1573635128: '2020-02-16',
-        UF_CRM_1580833330: '2020-03-10',
-        DATE_CREATE: '2020-02-02'
-    },
-    {
-        ID: 46130,
-        UF_CRM_1582909609: 'BY',
-        UF_CRM_1582909937: 'Беларусь',
-        UF_CRM_1582909249:'Минская обл.',
-        UF_CRM_1582909468:'Борисовский р-н',
-        UF_CRM_1577438281365: 'Борисов',
-        UF_CRM_1582909639: 'CZ',
-        UF_CRM_1582909954: 'Чехия',
-        UF_CRM_1582909273:'48 кв',
-        UF_CRM_1582909491:'48 кв',
-        UF_CRM_1577438296576: 'Мельник',
-        UF_CRM_1577687543: 'Тент',
-        UF_CRM_1577687860: 'Боковая загрузка',
-        UF_CRM_1573641711: 'пиломатериал',
-        UF_CRM_1577436773286: 82,
-        UF_CRM_1577436810522: 23,
-        UF_CRM_1577443693908: '~',
-        UF_CRM_1573635128: '2020-02-16',
+        UF_CRM_1573635128: '2020-02-17',
         UF_CRM_1580833330: '2020-03-10',
         DATE_CREATE: '2020-02-02'
     },
@@ -974,6 +974,18 @@ addObj.addEventListener('click', function (event) {
             selectTo[i].disabled = true;
         }
     }
+
+    if (event.target.classList.contains('filter-date-to__btn')){
+        event.preventDefault();
+        sortingDateTo(newDesk)
+    }
+
+    if (event.target.classList.contains('filter-date-add__btn')){
+        event.preventDefault();
+        sortingDateAdd(newDesk)
+    }
+
+
 });
 
 const controls = document.querySelector('.controls');
@@ -1004,9 +1016,6 @@ function calculateButtons (arrayDesk) {
                 subDesk[i].forEach(appCards);
             })
         }
-
-
-
     }
 }
 calculateButtons(arrDesk);
@@ -1020,3 +1029,25 @@ function sumCards(array) {
 }
 sumCards(arrDesk);
 
+
+function sortingDateTo(array) {
+    let cardsArray = [...array].sort(function (a, b) {
+        let dateA = a.UF_CRM_1573635128;
+        let dateB = b.UF_CRM_1573635128;
+        return new Date(dateA) - new Date(dateB);
+    });
+    calculateButtons(cardsArray);
+    filter(cardsArray);
+    sumCards(cardsArray);
+}
+
+function sortingDateAdd(array) {
+    let cardsArray = [...array].sort(function (a, b) {
+        let dateA = a.DATE_CREATE;
+        let dateB = b.DATE_CREATE;
+        return new Date(dateA) - new Date(dateB);
+    });
+    calculateButtons(cardsArray);
+    filter(cardsArray);
+    sumCards(cardsArray);
+}
