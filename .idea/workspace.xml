@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="f8f1e381-7875-423d-b340-143af592aff4" name="Default" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/main.js" beforeDir="false" afterPath="$PROJECT_DIR$/main.js" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
@@ -21,7 +21,7 @@
         <entry file="file://$PROJECT_DIR$/index.html">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="440">
-              <caret line="61" column="26" selection-start-line="61" selection-start-column="26" selection-end-line="61" selection-end-column="26" />
+              <caret line="62" column="26" selection-start-line="62" selection-start-column="17" selection-end-line="62" selection-end-column="26" />
             </state>
           </provider>
         </entry>
@@ -29,8 +29,8 @@
       <file leaf-file-name="main.js" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/main.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="360">
-              <caret line="958" column="8" selection-start-line="958" selection-start-column="8" selection-end-line="958" selection-end-column="8" />
+            <state relative-caret-position="492">
+              <caret line="1010" column="1" lean-forward="true" selection-start-line="1010" selection-start-column="1" selection-end-line="1010" selection-end-column="1" />
             </state>
           </provider>
         </entry>
@@ -118,12 +118,12 @@
       <updated>1583399926115</updated>
       <workItem from="1583399927568" duration="4524000" />
       <workItem from="1583415325755" duration="14316000" />
-      <workItem from="1583479951956" duration="291000" />
+      <workItem from="1583479951956" duration="1687000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="19131000" />
+    <option name="totallyTimeSpent" value="20527000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1066" extended-state="6" />
@@ -186,14 +186,14 @@
     <entry file="file://$PROJECT_DIR$/index.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="440">
-          <caret line="61" column="26" selection-start-line="61" selection-start-column="26" selection-end-line="61" selection-end-column="26" />
+          <caret line="62" column="26" selection-start-line="62" selection-start-column="17" selection-end-line="62" selection-end-column="26" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/main.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="360">
-          <caret line="958" column="8" selection-start-line="958" selection-start-column="8" selection-end-line="958" selection-end-column="8" />
+        <state relative-caret-position="492">
+          <caret line="1010" column="1" lean-forward="true" selection-start-line="1010" selection-start-column="1" selection-end-line="1010" selection-end-column="1" />
         </state>
       </provider>
     </entry>

@@ -1,4 +1,3 @@
-
 const arrDesk = [
     {
         ID: 46130,
@@ -950,6 +949,7 @@ addObj.addEventListener('click', function (event) {
 
         calculateButtons(newDesk);
         filter(newDesk);
+        sumCards(newDesk);
 
     }
     if (event.target.classList.contains('filter-clear__btn')){
@@ -958,7 +958,7 @@ addObj.addEventListener('click', function (event) {
         boxCards.innerHTML = '';
         calculateButtons(arrDesk);
         filter(arrDesk);
-
+        sumCards(arrDesk);
         selectTransport.value = 'Все';
         selectWeight.value = 'Все';
         inputVolume.value = ''; //Добавил
@@ -1011,4 +1011,12 @@ function calculateButtons (arrayDesk) {
 }
 calculateButtons(arrDesk);
 
+
+function sumCards(array) {
+    const innerCards = document.querySelector('.sum-cards');
+    let sum = array.concat().length;
+    innerCards.innerHTML = 'Найдено:';
+    innerCards.append(sum);
+}
+sumCards(arrDesk);
 
