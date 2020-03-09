@@ -3,7 +3,6 @@
   <component name="ChangeListManager">
     <list default="true" id="f8f1e381-7875-423d-b340-143af592aff4" name="Default" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/main.js" beforeDir="false" afterPath="$PROJECT_DIR$/main.js" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
@@ -30,8 +29,8 @@
       <file leaf-file-name="main.js" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/main.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="267">
-              <caret line="1037" column="54" lean-forward="true" selection-start-line="1037" selection-start-column="54" selection-end-line="1037" selection-end-column="54" />
+            <state relative-caret-position="10307">
+              <caret line="476" lean-forward="true" selection-start-line="476" selection-end-line="476" />
             </state>
           </provider>
         </entry>
@@ -43,6 +42,9 @@
       <find>consol</find>
       <find>filter</find>
       <find>item</find>
+      <find>this</find>
+      <find>calcu</find>
+      <find>newD</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -75,6 +77,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -86,12 +89,11 @@
           <select />
         </subPane>
       </pane>
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../sort" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
   </component>
@@ -120,12 +122,13 @@
       <workItem from="1583399927568" duration="4524000" />
       <workItem from="1583415325755" duration="14316000" />
       <workItem from="1583479951956" duration="3582000" />
-      <workItem from="1583483793557" duration="2151000" />
+      <workItem from="1583483793557" duration="2424000" />
+      <workItem from="1583739580574" duration="9599000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="24573000" />
+    <option name="totallyTimeSpent" value="34445000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1066" extended-state="6" />
@@ -157,6 +160,20 @@
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1320">
+          <caret line="60" column="42" selection-start-line="60" selection-start-column="42" selection-end-line="60" selection-end-column="42" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/main.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="22858">
+          <caret line="1039" column="23" lean-forward="true" selection-start-line="1039" selection-start-column="23" selection-end-line="1039" selection-end-column="23" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/index.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1298">
@@ -208,8 +225,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/main.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="267">
-          <caret line="1037" column="54" lean-forward="true" selection-start-line="1037" selection-start-column="54" selection-end-line="1037" selection-end-column="54" />
+        <state relative-caret-position="10307">
+          <caret line="476" lean-forward="true" selection-start-line="476" selection-end-line="476" />
         </state>
       </provider>
     </entry>
